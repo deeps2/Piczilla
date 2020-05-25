@@ -11,7 +11,6 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.widget.Toast;
 
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -62,12 +61,13 @@ public class Utility {
     /**
      * download and return bitmap for the given url
      * DO not call this method from main thread
+     *
      * @param src
      * @return
      */
     public static Bitmap getBitmapFromURL(String src) {
         try {
-            URL url = new URL("http://s3-ap-southeast-1.amazonaws.com/bsbcms/music/1440680430882/srch_saregama_INH100901955.jpg");
+            URL url = new URL(src);
             HttpURLConnection connection = (HttpURLConnection) url
                     .openConnection();
             connection.setDoInput(true);
@@ -93,7 +93,7 @@ public class Utility {
 
         // "RECREATE" THE NEW BITMAP
         Bitmap resizedBitmap = Bitmap.createBitmap(bm, 0, 0, width, height,
-                                                   matrix, false);
+                matrix, false);
 
         return resizedBitmap;
     }
@@ -101,6 +101,7 @@ public class Utility {
     /**
      * makes a get call and return the response string
      * DO not call this method from main thread
+     *
      * @param url
      * @return
      */
@@ -152,7 +153,6 @@ public class Utility {
                         .show();
             }
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 

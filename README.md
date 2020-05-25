@@ -4,4 +4,4 @@ App to fetch list of images and display them on ImageView
 APK: https://
 
 # ScreenShot
-<img src="https://res.cloudinary.com/deeps2/image/upload/v1590056576/unacad_2.png" width=280>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://res.cloudinary.com/deeps2/image/upload/v1590368920/piczilla.png" width=280>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
